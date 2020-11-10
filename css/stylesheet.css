@@ -1,0 +1,213 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+/*navbar*/
+
+.navalert-container{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+
+
+.navbar{
+    margin-bottom: 0;
+    margin-left: 0;
+    border:0;
+    width:100%;
+    background-color: rgba(179,195,205,1);
+}
+
+.navbar .navbar-toggler{
+    border:0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+   font-weight: bold; 
+}
+
+
+/*container*/
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    border:1px black solid;
+}
+
+.site-wide-alert{
+    border-radius:0;
+    margin-bottom: 0;
+    padding: 15px 5px;
+    color:#e03c52;
+    background-color: #f0f5ce;
+}
+
+.site-wide-alert a{
+color:darkblue;
+font-size: bold;
+}
+
+.callout-container{
+
+background: url("images/IMG_0280.JPG");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Monthlyfavorites{
+    
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes-container{
+text-align: center;
+align-items: center; 
+color:#31353e;
+}
+
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.blockquote{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* Features */
+
+.features-container{
+background-color: rgba(179,195,205,1);
+}
+
+.features-container .page-header{
+    color:#a21219;  
+    text-shadow: 1px 1px #0a0a0a; 
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+   color:#a21219;
+     text-shadow: 1px 1px #0a0a0a; 
+}
+
+.feature p {
+   color:black; 
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature p .btn {
+    background-color:#0e311c;
+    border-color:#0e311c;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color:#a21219;
+    text-shadow: 1px 1px #bad5d8;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.jumbotron .lead {
+    color: black;
+     text-shadow: 1px 1px #bad5d8;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 80%;
+    font-style: italic;
+    color: #e2f9fb;
+    text-shadow: 1px 1px #0a0a0a;
+}
+
+.jumbotron mark {
+    background-color:#bad5d8;
+    color:#f50526;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--green {
+    color: #e6def9;
+    background-color:#0e311c;
+    border-color: #0e311c;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: #18502e;
+    border-color: #18502e;
+    color: white;
+}
